@@ -5,22 +5,8 @@ files:
   visible: true
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/6808#comment
-status: Failed
+status: Solved
 feedback:
-  message: |
-    Failed test #1 of 5. Wrong answer
-
-    This is a sample test from the problem statement!
-
-    Test input:
-    Sauron
-
-    Correct output:
-    Hello, Sauron
-
-
-    Your code output:
-    What is your name?
-    Hello, Sauron
-  time: Thu, 03 Dec 2020 20:34:41 UTC
+  message: <html>Correct solution</html>
+  time: Thu, 03 Dec 2020 20:37:55 UTC
 record: -1
