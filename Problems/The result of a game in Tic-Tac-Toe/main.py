@@ -1,3 +1,3 @@
-print("0XX")
-print("0X0")
-print("X0X")
+print("O X X")
+print("O X O")
+print("X O X")
