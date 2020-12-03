@@ -1,0 +1,5 @@
+print("Hello,my name is Innocent.")
+print("I was created in 2020.")
+print("Please, remind your name.")
+myname = input()
+print("What a great name you have, " + myname)
