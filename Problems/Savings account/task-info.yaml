@@ -10,5 +10,8 @@ files:
     income = ...
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/5876#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 07 Dec 2020 08:37:06 UTC
 record: -1
