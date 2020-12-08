@@ -1,6 +1,9 @@
-number = int(input())
-sum = 0
-while number > 0:
-    sum += number
-    number -= 1
-print(sum)
+k = int(input())
+
+i = 1
+result = 0
+
+while i <= k:
+    result += i
+    i += 1
+print(result)
