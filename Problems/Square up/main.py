@@ -1,9 +1,4 @@
 i = 1
-result =0
-while i > 20:
-    result = result ** 2
-    result += i
+while i <= 20:
+    print(i ** 2)
     i += 1
-print(i)
-
-
