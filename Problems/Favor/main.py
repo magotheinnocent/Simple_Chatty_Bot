@@ -1,5 +1,5 @@
 k = int(input())
-number = 0
+sum = 0
 while k >= 1:
     k = k + 1
     sum = number + k
