@@ -7,5 +7,20 @@ files:
         pass
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/8934#comment
-status: Unchecked
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 8. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    100
+    Correct output:
+    160.9
+
+    Your code output:
+    160.9
+    Reading input is not required!
+  time: Tue, 15 Dec 2020 11:49:48 UTC
 record: -1
