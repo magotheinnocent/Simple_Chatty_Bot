@@ -3,12 +3,13 @@ files:
 - name: main.py
   visible: true
   text: |-
-    def mi_to_km():
+    # implement the function below
+    def get_sum(a, b):
         pass
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/8934#comment
+feedback_link: https://hyperskill.org/learn/step/5908#comment
 status: Solved
 feedback:
   message: <html>Correct solution</html>
-  time: Tue, 15 Dec 2020 12:00:50 UTC
+  time: Tue, 15 Dec 2020 12:02:07 UTC
 record: -1
