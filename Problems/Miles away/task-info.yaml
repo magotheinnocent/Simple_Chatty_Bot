@@ -7,19 +7,8 @@ files:
         pass
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/8934#comment
-status: Failed
+status: Solved
 feedback:
-  message: |
-    Failed test #2 of 8. Wrong answer
-
-    This is a sample test from the problem statement!
-
-    Test input:
-    14
-    Correct output:
-    22.526
-
-    Your code output:
-    22.53
-  time: Tue, 15 Dec 2020 11:57:38 UTC
+  message: <html>Correct solution</html>
+  time: Tue, 15 Dec 2020 12:00:16 UTC
 record: -1
