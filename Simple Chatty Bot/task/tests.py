@@ -7,21 +7,18 @@ CheckResult.wrong = lambda feedback: CheckResult(False, feedback)
 
 class ChattyBotTest(StageTest):
     def generate(self) -> List[TestCase]:
-        stdin = "Marry\n1\n0\n5\n10"
-        for i in range(10):
-            stdin += f'\n{i}'
         return [
-            TestCase(stdin=stdin, attach=("Marry", 40, 10))
+            TestCase(stdin="Marry\n1\n0\n5\n10", attach=("Marry", 40, 10))
         ]
 
     def check(self, reply: str, clue: Any) -> CheckResult:
         lines = reply.strip().splitlines()
         length = 9 + clue[2] + 1
-        if len(lines) <= length:
+        if len(lines) != length:
             return CheckResult.wrong(
-                f"You should output at least {length} lines " +
+                f"You should output {length} lines " +
                 f"(for the count number {clue[2]}).\n" +
-                f"Lines found: {len(lines)}"
+                f"Lines found: {len(lines)}\n"
                 f"Your output:\n"
                 f"{reply.strip()}"
             )
@@ -42,9 +39,10 @@ class ChattyBotTest(StageTest):
 
         if age not in line_with_age:
             return CheckResult.wrong(
-                "Can't find a correct age! " +
+                "Can't find a correct age " +
+                "in the last line of output! " +
                 "Maybe you calculated the age wrong?\n\n" +
-                "Your line with age: \n" + "\"" + lines[6] + "\""
+                "Your last line: \n" + "\"" + lines[6] + "\""
             )
 
         for i in range(clue[2] + 1):
@@ -58,15 +56,6 @@ class ChattyBotTest(StageTest):
                     f"Your {i + 8}-th line: \n" +
                     f"\"{num_line}\""
                 )
-
-        last_line = lines[-1]
-        if "Congratulations, have a nice day!" != last_line:
-            return CheckResult.wrong(
-                "Your last line should be:\n" +
-                "\"Congratulations, have a nice day!\"\n" +
-                "Found:\n" +
-                f"\"{last_line}\""
-            )
 
         return CheckResult.correct()
 

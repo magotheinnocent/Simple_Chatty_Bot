@@ -13,9 +13,9 @@ age = (remainder1 * 70
         + remainder3 * 15) % 105
 print(f"Your age is {age}; that's a good time to start programming!")
 print("Now I will prove to you that I can count to any number you want")
-number=int(input())
-i = 0
-while i < number:
+number = int(input())
+i=0
+while i <= number:
     print(f"{i}!")
     i += 1
 print("Completed, have a nice day!")
