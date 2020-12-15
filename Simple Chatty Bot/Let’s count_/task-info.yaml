@@ -69,6 +69,12 @@ files:
     if __name__ == '__main__':
         ChattyBotTest('bot.bot').run_tests()
   learner_created: false
+- name: bot/bot.py
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/97/stages/537/implement#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 15 Dec 2020 09:27:19 UTC
+record: 4
