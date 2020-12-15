@@ -1,6 +1,5 @@
-# put your python code here
-def check_leap(year):
-    if year / 4 and year / 400:
-        return print("Leap")
-    else:
-        return print("Ordinary")
+year = int(input())
+if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+    print("Leap")
+else:
+    print("Ordinary")
