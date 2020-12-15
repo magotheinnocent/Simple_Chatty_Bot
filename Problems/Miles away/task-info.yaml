@@ -10,17 +10,16 @@ feedback_link: https://hyperskill.org/learn/step/8934#comment
 status: Failed
 feedback:
   message: |
-    Failed test #1 of 8. Wrong answer
+    Failed test #2 of 8. Wrong answer
 
     This is a sample test from the problem statement!
 
     Test input:
-    100
+    14
     Correct output:
-    160.9
+    22.526
 
     Your code output:
-    160.9
-    Reading input is not required!
-  time: Tue, 15 Dec 2020 11:49:48 UTC
+    22.53
+  time: Tue, 15 Dec 2020 11:57:38 UTC
 record: -1
