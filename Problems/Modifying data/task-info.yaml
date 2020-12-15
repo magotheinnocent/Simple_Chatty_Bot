@@ -5,5 +5,9 @@ files:
   text: '# change the name of the 5th planet in planets'
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/7280#comment
-status: Unchecked
+status: Failed
+feedback:
+  message: |
+    Failed. Wrong answer
+  time: Tue, 15 Dec 2020 10:23:41 UTC
 record: -1
