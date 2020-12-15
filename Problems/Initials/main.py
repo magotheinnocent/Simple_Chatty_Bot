@@ -2,3 +2,4 @@
 name = input()
 
 # your code here
+print(name[0])
