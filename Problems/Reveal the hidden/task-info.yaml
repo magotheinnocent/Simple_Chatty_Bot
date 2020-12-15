@@ -9,5 +9,8 @@ files:
     # your code here
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/7188#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 15 Dec 2020 10:01:29 UTC
 record: -1
