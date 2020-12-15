@@ -5,5 +5,8 @@ files:
   text: dictionary = ["aa", "abab", "aac", "ba", "bac", "baba", "cac", "caac"]
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/6525#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 15 Dec 2020 12:30:56 UTC
 record: -1
