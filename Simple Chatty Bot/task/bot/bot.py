@@ -15,7 +15,19 @@ print(f"Your age is {age}; that's a good time to start programming!")
 print("Now I will prove to you that I can count to any number you want")
 number=int(input())
 i = 0
-while i < number:
+while i <= number:
     print(f"{i}!")
     i += 1
-print("Completed, have a nice day!")
+print("Let's test your programming knowledge.")
+print("Why do we use methods?")
+answer_1 = list("1. To repeat a statement multiple times.")
+answer_2 = list("2. To decompose a program into several small subroutines.")
+answer_3 = list("3. To determine the execution time of a program.")
+answer_4 = list("4. To interrupt the execution of a program.")
+answer = input()
+while answer != "2":
+        print('Please, try again.')
+        answer = input()
+if answer == "2":
+    print("Completed, have a nice day!")
+print("Congratulations, have a nice day!")
