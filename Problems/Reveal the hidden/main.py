@@ -2,3 +2,4 @@
 hidden = list(input())
 
 # your code here
+print(len(hidden))
